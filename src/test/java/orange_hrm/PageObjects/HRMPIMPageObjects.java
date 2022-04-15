@@ -54,7 +54,7 @@ import net.thucydides.core.annotations.DefaultUrl;
         public static Target OK_BUTTON = Target.the("ok button")
                 .locatedBy("#dialogDeleteBtn");
         public static Target NO_EMPLOYEE = Target.the("empty employee list")
-                .locatedBy("//*[text()='No Record Found']");
+                .locatedBy("//*[text()='No Records Found']");
         // Deleted Employee -End
 
     }

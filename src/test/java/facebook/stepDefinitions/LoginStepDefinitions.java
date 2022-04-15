@@ -6,7 +6,7 @@ import net.serenitybdd.screenplay.Actor;
 import tasks.*;
 
 public class LoginStepDefinitions {
-    @Given("{actor}open facebook login page")
+    @Given("{actor} open facebook login page")
     public void loadPage(Actor actor) throws Exception {
         actor.wasAbleTo(navigateTo.theURL("Facebook Login"));
     }

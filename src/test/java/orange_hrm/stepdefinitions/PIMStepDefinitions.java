@@ -9,11 +9,11 @@ import tasks.*;
 public class PIMStepDefinitions {
 
     // Read Employee - Begin
-    @And("{actor}access employee list")
+    @And("{actor} access employee list")
     public void accessEmployee(Actor actor) throws Exception{
         actor.wasAbleTo(navigateTo.theURL("HRM Employee List"));
     }
-    @And("{actor}can see new employee list result")
+    @And("{actor} can see new employee list result")
     public void listResult(Actor actor) throws Exception{
         actor.attemptsTo(
                 VerifyDisplayed.element("Employee List")
