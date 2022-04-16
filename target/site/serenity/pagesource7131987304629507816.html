@@ -1,0 +1,995 @@
+<html lang='en'><head><link href='prism/prism.css' rel='stylesheet' /></head><body><script src='prism/prism.js'></script><body><div><pre><code class='language-html'>&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete"&gt;<br/>
+ &lt;head&gt; <br/>
+  &lt;title&gt;OrangeHRM&lt;/title&gt; <br/>
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt; <br/>
+  &lt;style type="text/css"&gt;svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.3333333333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul&gt;li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fad.fa-inverse{color:#fff}&lt;/style&gt;<br/>
+  &lt;link rel="shortcut icon" href="/webres_6258e2190e0e25.11707650/themes/default/images/favicon.ico"&gt; &lt;!-- Library CSS files --&gt; <br/>
+  &lt;link href="/webres_6258e2190e0e25.11707650/themes/default/css/reset.css" rel="stylesheet" type="text/css"&gt; <br/>
+  &lt;link href="/webres_6258e2190e0e25.11707650/themes/default/css/tipTip.css" rel="stylesheet" type="text/css"&gt; <br/>
+  &lt;link href="/webres_6258e2190e0e25.11707650/themes/default/css/jquery/jquery-ui-1.8.21.custom.css" rel="stylesheet" type="text/css"&gt; <br/>
+  &lt;link href="/webres_6258e2190e0e25.11707650/themes/default/css/jquery/jquery.autocomplete.css" rel="stylesheet" type="text/css"&gt; &lt;!-- Custom CSS files --&gt; <br/>
+  &lt;link href="/webres_6258e2190e0e25.11707650/themes/default/css/main.css" rel="stylesheet" type="text/css"&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/js/jquery/jquery-3.4.1.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/js/jquery/validate/jquery.validate.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/js/jquery/jquery.ui.core.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/js/jquery/jquery.autocomplete.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/js/orangehrm.autocomplete.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/js/jquery/jquery.ui.datepicker.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/js/jquery/jquery.form.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/js/jquery/jquery.tipTip.minified.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/js/jquery/bootstrap-modal.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/js/jquery/jquery.clickoutside.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/js/fontawesome-5.13.0/js/fontawesome.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/js/fontawesome-5.13.0/js/solid.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/js/fontawesome-5.13.0/js/regular.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/js/orangehrm.validate.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/js/archive.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/js/orangehrm.marketplace.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/js/orangehrm.helper.js"&gt;&lt;/script&gt; &lt;!-- Le HTML5 shim, for IE6-8 support of HTML5 elements --&gt; &lt;!--[if lt IE 9]&gt;<br/>
+            &lt;script src="http://html5shim.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;<br/>
+        &lt;![endif]--&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/orangehrmBuzzPlugin/js/viewNotificationComponent.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/orangehrmBuzzPlugin/js/buzzCommon.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/orangehrmBuzzPlugin/js/buzzNew.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/orangehrmBuzzPlugin/js/viewPostComponent.js"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/orangehrmCorePlugin/js/mainMenuComponent.js"&gt;&lt;/script&gt; <br/>
+  &lt;link rel="stylesheet" type="text/css" media="screen" href="/webres_6258e2190e0e25.11707650/orangehrmCorePlugin/css/_ohrmList.css"&gt; <br/>
+  &lt;link rel="stylesheet" type="text/css" media="screen" href="/webres_6258e2190e0e25.11707650/orangehrmBuzzPlugin/css/viewNotificationComponent.css"&gt; <br/>
+  &lt;link rel="stylesheet" type="text/css" media="screen" href="/webres_6258e2190e0e25.11707650/orangehrmBuzzPlugin/css/viewShareSuccess.css"&gt; <br/>
+  &lt;link rel="stylesheet" type="text/css" media="screen" href="/webres_6258e2190e0e25.11707650/orangehrmBuzzPlugin/css/viewBuzzSuccess.css"&gt; <br/>
+  &lt;link rel="stylesheet" type="text/css" media="screen" href="/webres_6258e2190e0e25.11707650/orangehrmBuzzPlugin/css/getSharedEmployeeListSuccess.css"&gt; <br/>
+  &lt;link rel="stylesheet" type="text/css" media="screen" href="/webres_6258e2190e0e25.11707650/orangehrmBuzzPlugin/css/viewPostComponent.css"&gt; <br/>
+  &lt;link rel="stylesheet" type="text/css" media="screen" href="/webres_6258e2190e0e25.11707650/orangehrmBuzzPlugin/css/photoTiling.css"&gt; <br/>
+  &lt;link rel="stylesheet" type="text/css" media="screen" href="/webres_6258e2190e0e25.11707650/orangehrmBuzzPlugin/css/messageBoxStyles.css"&gt; <br/>
+  &lt;link rel="stylesheet" type="text/css" media="screen" href="/webres_6258e2190e0e25.11707650/orangehrmHelpPlugin/css/viewHelpComponent.css"&gt; <br/>
+  &lt;link rel="stylesheet" type="text/css" media="screen" href="/webres_6258e2190e0e25.11707650/orangehrmBeaconPlugin/css/_beaconAbout.css"&gt; <br/>
+  &lt;link rel="stylesheet" type="text/css" media="screen" href="/webres_6258e2190e0e25.11707650/orangehrmCorePlugin/css/mainMenuComponent.css"&gt; <br/>
+ &lt;/head&gt; <br/>
+ &lt;body&gt; <br/>
+  &lt;div id="wrapper"&gt; <br/>
+   &lt;div id="branding"&gt; &lt;a href="http://www.orangehrm.com/" target="_blank"&gt;&lt;img src="/webres_6258e2190e0e25.11707650/themes/default/images/logo.png" width="283" height="56" alt="OrangeHRM"&gt;&lt;/a&gt; &lt;a href="#" id="welcome" class="panelTrigger"&gt;Welcome Paul&lt;/a&gt; &lt;!--Notification icon--&gt; <br/>
+    &lt;div class="notification"&gt; &lt;span id="notification" class="fa-lg fa-layers fa-fw"&gt; <br/>
+      &lt;svg class="svg-inline--fa fa-bell fa-w-14 notification-icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bell" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" data-fa-i2svg=""&gt;<br/>
+       &lt;path fill="currentColor" d="M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z"&gt;&lt;/path&gt;<br/>
+      &lt;/svg&gt;&lt;!-- &lt;i class="fas fa-bell notification-icon"&gt;&lt;/i&gt; --&gt; &lt;span id="notificationBadge" class="fa-layers-counter notification-badge hide-notification-badge"&gt;&lt;/span&gt; &lt;/span&gt; <br/>
+    &lt;/div&gt; &lt;!-- Modal --&gt; <br/>
+    &lt;div class="modal hide" id="notificationModal" role="dialog" data-backdrop="false"&gt; <br/>
+     &lt;div class="modal-dialog"&gt; &lt;!-- Modal content--&gt; <br/>
+      &lt;div class="modal-content"&gt; <br/>
+       &lt;div class="modal-body"&gt; <br/>
+        &lt;div class="clear-notifications"&gt; <br/>
+        &lt;/div&gt; <br/>
+        &lt;div id="notificationsMessages" class="notifications-message empty-notifications-message"&gt;<br/>
+         No new notifications<br/>
+        &lt;/div&gt; <br/>
+        &lt;div class=""&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+      &lt;/div&gt; <br/>
+     &lt;/div&gt; <br/>
+     &lt;div&gt; <br/>
+      &lt;form id="actionValidateForm" method="POST" action="" enctype="multipart/form-data"&gt; <br/>
+       &lt;fieldset&gt; <br/>
+        &lt;ol&gt; <br/>
+         &lt;input type="hidden" name="actionValidatingForm[_csrf_token]" value="8bdc58a7eb8682b10db22a79270536f2" id="actionValidatingForm__csrf_token"&gt; <br/>
+        &lt;/ol&gt; <br/>
+       &lt;/fieldset&gt; <br/>
+      &lt;/form&gt; <br/>
+      &lt;form id="likedOrSharedEmployeeForm" method="POST" action=""&gt; <br/>
+       &lt;input type="hidden" name="likedOrSharedEmployeeForm[id]" id="likedOrSharedEmployeeForm_id"&gt; <br/>
+       &lt;input type="hidden" name="likedOrSharedEmployeeForm[type]" id="likedOrSharedEmployeeForm_type"&gt; <br/>
+       &lt;input type="hidden" name="likedOrSharedEmployeeForm[event]" id="likedOrSharedEmployeeForm_event"&gt; <br/>
+       &lt;input type="hidden" name="likedOrSharedEmployeeForm[_csrf_token]" value="542e410ba73bea5a4a5810488292ed59" id="likedOrSharedEmployeeForm__csrf_token"&gt; <br/>
+      &lt;/form&gt; <br/>
+      &lt;form id="deleteOrEditShareForm" method="POST" action=""&gt; <br/>
+       &lt;input type="hidden" name="deleteOrEditShareForm[shareId]" id="deleteOrEditShareForm_shareId"&gt; <br/>
+       &lt;input type="hidden" name="deleteOrEditShareForm[textShare]" id="deleteOrEditShareForm_textShare"&gt; <br/>
+       &lt;input type="hidden" name="deleteOrEditShareForm[_csrf_token]" value="1547cbd06d30d4642b83dd877641e9f0" id="deleteOrEditShareForm__csrf_token"&gt; <br/>
+      &lt;/form&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; &lt;!-- pop up--&gt; <br/>
+    &lt;div class="modal hide notification-view-more-modal" id="notificationShareViewMoreModal"&gt; <br/>
+     &lt;div class="modal-body notification-view-more-modal-body"&gt; <br/>
+      &lt;div class="notification-hide-modal-popup"&gt; <br/>
+       &lt;img class="notification-hide-modal-popup" src="/webres_6258e2190e0e25.11707650/orangehrmBuzzPlugin/images/close.png" height="20" width="20"&gt;<br/>
+      &lt;/div&gt; <br/>
+      &lt;div id="notificationShareView"&gt; <br/>
+       &lt;div class="shareView"&gt;&lt;/div&gt; <br/>
+      &lt;/div&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; <br/>
+    &lt;div class="modal hide" id="successDataModal"&gt; <br/>
+     &lt;div class="modal-body"&gt; <br/>
+      &lt;div class="mb-heading ac_over"&gt;<br/>
+        Success! <br/>
+      &lt;/div&gt; <br/>
+      &lt;div id="successBodyEdit"&gt;<br/>
+        Successfully Saved <br/>
+      &lt;/div&gt; <br/>
+      &lt;div id="successBodyShare"&gt;<br/>
+        Successfully Shared <br/>
+      &lt;/div&gt; <br/>
+      &lt;div id="successBodyDelete"&gt;<br/>
+        Successfully Deleted <br/>
+      &lt;/div&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; &lt;!--start loading window popup window--&gt; <br/>
+    &lt;div class="modal hide" id="loadingDataModal"&gt; <br/>
+     &lt;div class="modal-body loadingDataModal-body"&gt; <br/>
+      &lt;div id="loadingModalBody"&gt; <br/>
+       &lt;img id="img-spinner-loading" src="/webres_6258e2190e0e25.11707650/orangehrmBuzzPlugin/images/vload.gif" height="12"&gt; <br/>
+      &lt;/div&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; &lt;!--end loading window pop up window--&gt; &lt;!-- start like window popup window--&gt; <br/>
+    &lt;div class="modal hide modal-on-preview" id="postsharehide"&gt; <br/>
+     &lt;div id="modalHeader"&gt;<br/>
+       People who shared this post <br/>
+     &lt;/div&gt; <br/>
+     &lt;div class="modal-body originalPostModal-body"&gt; <br/>
+      &lt;div class="hideModalPopUp" id="postsharehide"&gt; <br/>
+       &lt;img class="hideModalPopUp" id="postsharehide" src="/webres_6258e2190e0e25.11707650/orangehrmBuzzPlugin/images/close.png" height="20" width="20"&gt;<br/>
+      &lt;/div&gt; <br/>
+      &lt;div class="" id="postsharehidebody"&gt;&lt;/div&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; &lt;!-- end like window pop up window--&gt; &lt;!-- start like window popup window--&gt; <br/>
+    &lt;div class="modal hide modal-on-preview" id="postlikehide"&gt; <br/>
+     &lt;div id="modalHeader"&gt;<br/>
+       People who like this post <br/>
+     &lt;/div&gt; <br/>
+     &lt;div class="modal-body originalPostModal-body"&gt; <br/>
+      &lt;div class="hideModalPopUp" id="postlikehide"&gt; <br/>
+       &lt;img class="hideModalPopUp" id="postlikehide" src="/webres_6258e2190e0e25.11707650/orangehrmBuzzPlugin/images/close.png" height="20" width="20"&gt;<br/>
+      &lt;/div&gt; <br/>
+      &lt;div class="" id="postlikehidebody"&gt;&lt;/div&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; &lt;!-- end like window pop up window--&gt; <br/>
+    &lt;script&gt;<br/>
+    var getAccessUrl = '/index.php/buzz/getLogedToBuzz';<br/>
+    var loginpageURL = '/index.php/auth/login';<br/>
+<br/>
+    // buzzCommon.js<br/>
+    var viewLikedEmployees = '/index.php/buzz/viewLikedEmployees';<br/>
+    var addBuzzCommentURL = '/index.php/buzz/addNewComment';<br/>
+    var shareShareURL = '/index.php/buzz/shareAPost';<br/>
+    var getLikedEmployeeListURL = '/index.php/buzz/getLikedEmployeeList';<br/>
+<br/>
+    // buzzNew.js<br/>
+    var shareLikeURL = '/index.php/buzz/likeOnShare';<br/>
+    var commentLikeURL = '/index.php/buzz/likeOnComment';<br/>
+    var getSharedEmployeeListURL = '/index.php/buzz/getSharedEmployeeList';<br/>
+<br/>
+    // viewNotificationComponent.js<br/>
+    var viewMoreShare = '/index.php/buzz/viewShare';<br/>
+    var buzzURL = "/index.php/buzz/viewBuzz";<br/>
+    var ClearNotificationURL = "/index.php/buzz/clearNotificationAjax";<br/>
+    var ClickOnNotificationIconURL = "/index.php/buzz/clickOnNotificationIconAjax";<br/>
+    var lang_NoNewNotifications = 'No new notifications';<br/>
+    var lang_NotificationClearFailed = 'Failed to clear notifications';<br/>
+&lt;/script&gt; &lt;!--Help icon--&gt; &lt;a class="help-icon-div" href="/index.php/help/help?label=pim_viewEmployeeList" target="_blank"&gt; &lt;span class="fa-lg fa-layers fa-fw"&gt; <br/>
+      &lt;svg class="svg-inline--fa fa-question-circle fa-w-16 help-icon" aria-hidden="true" focusable="false" data-prefix="far" data-icon="question-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" data-fa-i2svg=""&gt;<br/>
+       &lt;path fill="currentColor" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 448c-110.532 0-200-89.431-200-200 0-110.495 89.472-200 200-200 110.491 0 200 89.471 200 200 0 110.53-89.431 200-200 200zm107.244-255.2c0 67.052-72.421 68.084-72.421 92.863V300c0 6.627-5.373 12-12 12h-45.647c-6.627 0-12-5.373-12-12v-8.659c0-35.745 27.1-50.034 47.579-61.516 17.561-9.845 28.324-16.541 28.324-29.579 0-17.246-21.999-28.693-39.784-28.693-23.189 0-33.894 10.977-48.942 29.969-4.057 5.12-11.46 6.071-16.666 2.124l-27.824-21.098c-5.107-3.872-6.251-11.066-2.644-16.363C184.846 131.491 214.94 112 261.794 112c49.071 0 101.45 38.304 101.45 88.8zM298 368c0 23.159-18.841 42-42 42s-42-18.841-42-42 18.841-42 42-42 42 18.841 42 42z"&gt;&lt;/path&gt;<br/>
+      &lt;/svg&gt;&lt;!-- &lt;i class="far fa-question-circle help-icon"&gt;&lt;/i&gt; --&gt; &lt;/span&gt; &lt;/a&gt; <br/>
+    &lt;div id="MP_btn"&gt; <br/>
+     &lt;input id="MP_link" type="button" class="button" value="Marketplace"&gt; <br/>
+    &lt;/div&gt; <br/>
+    &lt;script&gt;<br/>
+                    var marketplaceURL = "/index.php/marketPlace/ohrmAddons";<br/>
+                    var SubscriberURL = "/index.php/pim/subscriber";<br/>
+                &lt;/script&gt; <br/>
+    &lt;div id="welcome-menu" class="panelContainer"&gt; <br/>
+     &lt;ul&gt; <br/>
+      &lt;li&gt; &lt;a href="#" data-dismiss="modal" id="aboutDisplayLink"&gt;About&lt;/a&gt; <br/>
+       &lt;div class="modal hide" id="displayAbout"&gt; <br/>
+        &lt;div class="modal-header"&gt; &lt;a class="close" data-dismiss="modal"&gt;×&lt;/a&gt; <br/>
+         &lt;h3&gt;About&lt;/h3&gt; <br/>
+        &lt;/div&gt; <br/>
+        &lt;form name="frmSelectEmployees" id="frmSelectEmployees" method="post" action="/index.php/communication/beaconAboutAjax" enctype="multipart/form-data"&gt; <br/>
+         &lt;div class="modal-body"&gt; <br/>
+          &lt;div id="companyInfo"&gt; <br/>
+           &lt;ul&gt; <br/>
+            &lt;li&gt; &lt;p&gt;Company Name: OrangeHRM&lt;/p&gt; &lt;/li&gt; <br/>
+            &lt;li&gt; &lt;p&gt;Version: Orangehrm OS 4.9&lt;/p&gt; &lt;/li&gt; <br/>
+            &lt;li&gt; &lt;p&gt;Active Employees: 61&lt;/p&gt; &lt;/li&gt; <br/>
+            &lt;li&gt; &lt;p&gt;Employees Terminated: 0&lt;/p&gt; &lt;/li&gt; <br/>
+           &lt;/ul&gt; <br/>
+          &lt;/div&gt; <br/>
+         &lt;/div&gt;<br/>
+        &lt;/form&gt; <br/>
+        &lt;script type="text/javascript"&gt;<br/>
+    jQuery(document).ready(function() {<br/>
+        <br/>
+               <br/>
+        jQuery('#aboutDisplayLink').click(function(event) {<br/>
+            event.stopImmediatePropagation();<br/>
+            jQuery('#messageToDisplayAbout').css(<br/>
+                    'display', 'none');<br/>
+            jQuery('#displayAbout').modal();<br/>
+            jQuery('#help-menu.panelContainer').attr('style', 'display:block');<br/>
+            <br/>
+            var test = jQuery('.panelContainer');<br/>
+            jQuery('#help-menu.panelContainer').css(<br/>
+                    'display', 'block');<br/>
+             <br/>
+        });<br/>
+<br/>
+        jQuery('#heartbeatSubmitBtn').click(function(event) {<br/>
+            event.stopImmediatePropagation();<br/>
+            jQuery(this).closest('form').ajaxSubmit(function() {<br/>
+                jQuery('#messageToDisplayAbout').html('Saved');<br/>
+<br/>
+                if (jQuery('#register_registration').is(':checked')) {<br/>
+                    jQuery('#registration-section').css(<br/>
+                            'display', 'none');<br/>
+                }<br/>
+                jQuery('#displayAbout').modal('hide');<br/>
+                jQuery('#messageToDisplayAbout').css(<br/>
+                        'display', 'block');<br/>
+                jQuery('#welcome-menu').css('display','none');<br/>
+            });<br/>
+        });<br/>
+<br/>
+        jQuery('#displayAbout').click(function(event) {<br/>
+            event.stopImmediatePropagation();<br/>
+        });<br/>
+        <br/>
+        jQuery('#heartbeatCancelBtn').click(function(event) {<br/>
+            event.stopImmediatePropagation();<br/>
+             jQuery('#welcome-menu').css('display','none');<br/>
+                 jQuery('#displayAbout').modal('hide');<br/>
+        });<br/>
+<br/>
+    })<br/>
+&lt;/script&gt; <br/>
+       &lt;/div&gt;&lt;/li&gt; <br/>
+      &lt;li&gt;&lt;a href="/index.php/support/index"&gt;Support&lt;/a&gt;&lt;/li&gt; <br/>
+      &lt;li&gt;&lt;a href="/index.php/auth/logout"&gt;Logout&lt;/a&gt;&lt;/li&gt; <br/>
+     &lt;/ul&gt; <br/>
+    &lt;/div&gt; <br/>
+    &lt;style&gt;<br/>
+    svg path,<br/>
+    svg rect{<br/>
+        fill: #FF6700;<br/>
+    }<br/>
+    .svgcl{<br/>
+        position: relative;<br/>
+        left: -35px;<br/>
+        top: -31px;<br/>
+    }<br/>
+    &lt;/style&gt; <br/>
+    &lt;script language="javascript"&gt;<br/>
+    var inputDatePattern = 'Y-m-d' ;<br/>
+    var separatorString = 'to';<br/>
+    $( document ).ready(function() {<br/>
+<br/>
+        $("#loader-1").hide();<br/>
+        empId = location.href[location.href.length-1];<br/>
+        dates = $('#startDates').find(":selected").text().split(" "+separatorString+" ");<br/>
+        startDate_timesheet = dates[0]+" 00:00:00";<br/>
+        endDate_timesheet   = dates[1]+" 00:00:00";<br/>
+<br/>
+        clientId  =     "";<br/>
+        clientSecret  = "";<br/>
+        clientUrl     = "";<br/>
+        successUrl  = "";<br/>
+        ajaxURL = "/index.php/buzz/viewBuzz";<br/>
+        var timeSheetStatus = $('#timesheet_status').find('h2').text();<br/>
+        if(timeSheetStatus == 'Status: Approved'){<br/>
+<br/>
+            $('.syncToggl').hide();<br/>
+        } else {<br/>
+            $('.syncToggl').show();<br/>
+        }<br/>
+<br/>
+    });<br/>
+<br/>
+        <br/>
+    function ajaxSyc() {<br/>
+        $("#loader-1").show();<br/>
+<br/>
+        $.ajax({<br/>
+                type: "POST",<br/>
+                url: ajaxURL,<br/>
+                data: {<br/>
+                    'employee_Id':employeeId,<br/>
+                    'startTime': startDate_timesheet,<br/>
+                    'endTime': endDate_timesheet,<br/>
+                    'timeFormat': inputDatePattern,<br/>
+                    'timeZone': 'GMT'+formatTimeZone()<br/>
+                },<br/>
+                contentType: "application/x-www-form-urlencoded",<br/>
+<br/>
+                success: function (msg, status, jqXHR) {<br/>
+<br/>
+                    $("#loader-1").hide();<br/>
+                    msg = JSON.parse(msg);<br/>
+                    msgCode = msg.statusCode;<br/>
+                    if (msgCode != null) {<br/>
+                        if (msgCode == 101) {<br/>
+                            displayMessages('error',msg.description );<br/>
+                        } else if (msgCode == 102) {<br/>
+<br/>
+                            displayMessages('success', msg.description);<br/>
+                            setTimeout(function () {<br/>
+                                location.reload();<br/>
+                            }, 2000);<br/>
+<br/>
+                        }<br/>
+                    } else {<br/>
+                        showErrorMsg();<br/>
+                    }<br/>
+<br/>
+                },<br/>
+                error: function (XMLHttpRequest, textStatus, errorThrown) {<br/>
+                    $("#loader-1").hide();<br/>
+                    console.log(errorThrown);<br/>
+                    showErrorMsg();<br/>
+                }<br/>
+            });<br/>
+    }<br/>
+    <br/>
+    function startSyc() {<br/>
+        $("#loader-1").show();<br/>
+<br/>
+    $.ajax({<br/>
+<br/>
+        type: "POST",<br/>
+        url: clientUrl,<br/>
+<br/>
+<br/>
+        data: {<br/>
+            'grant_type': 'client_credentials',<br/>
+            'client_id': clientId,<br/>
+            'client_secret': clientSecret<br/>
+        },<br/>
+        contentType: "application/x-www-form-urlencoded",<br/>
+<br/>
+<br/>
+        success: function (msg, status, jqXHR) {<br/>
+<br/>
+            try {<br/>
+<br/>
+                msg = $.parseJSON(jqXHR.responseText);<br/>
+<br/>
+            } catch (err) {<br/>
+                console.log(err);<br/>
+                showErrorMsg();<br/>
+            }<br/>
+<br/>
+            $.ajax({<br/>
+                type: "POST",<br/>
+                url: successUrl,<br/>
+                beforeSend: function (xhr) {<br/>
+<br/>
+                    xhr.setRequestHeader("Authorization", "Bearer " + msg.access_token);<br/>
+                },<br/>
+<br/>
+                data: {<br/>
+<br/>
+                    'employee_Id':employeeId,<br/>
+                    'startTime': startDate_timesheet,<br/>
+                    'endTime': endDate_timesheet,<br/>
+                    'timeFormat': inputDatePattern,<br/>
+                    'timeZone': 'GMT'+formatTimeZone()<br/>
+                },<br/>
+                contentType: "application/x-www-form-urlencoded",<br/>
+<br/>
+                success: function (msg, status, jqXHR) {<br/>
+<br/>
+                    $("#loader-1").hide();<br/>
+                    msgCode = msg.statusCode;<br/>
+                    if (msgCode != null) {<br/>
+                        if (msgCode == 101) {<br/>
+                            displayMessages('error',msg.description );<br/>
+                        } else if (msgCode == 102) {<br/>
+<br/>
+                            displayMessages('success', msg.description);<br/>
+                            setTimeout(function () {<br/>
+                                location.reload();<br/>
+                            }, 2000);<br/>
+<br/>
+                        }<br/>
+                    } else {<br/>
+                        showErrorMsg();<br/>
+                    }<br/>
+<br/>
+                },<br/>
+                error: function (XMLHttpRequest, textStatus, errorThrown) {<br/>
+                    $("#loader-1").hide();<br/>
+                    console.log(errorThrown);<br/>
+                    showErrorMsg();<br/>
+                }<br/>
+            });<br/>
+<br/>
+        },<br/>
+        error: function (XMLHttpRequest, textStatus, errorThrown) {<br/>
+            $("#loader-1").hide();<br/>
+            console.log(errorThrown);<br/>
+            showErrorMsg();<br/>
+        }<br/>
+<br/>
+<br/>
+    });<br/>
+<br/>
+    }<br/>
+<br/>
+    function showErrorMsg(){<br/>
+        displayMessages('error','Unable To Sync With Toggl' );<br/>
+        setTimeout(function () {<br/>
+            $('#msgDiv').remove();<br/>
+        }, 3000);<br/>
+<br/>
+    }<br/>
+<br/>
+&lt;/script&gt; <br/>
+    &lt;div&gt; <br/>
+     &lt;div class="toggl"&gt; <br/>
+      &lt;div class="loader loader--style2" title="1"&gt; <br/>
+       &lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="loader-1" class="svgcl" x="0px" y="0px" width="30px" height="30px" viewbox="0 0 50 50" style="display: none;" xml:space="preserve"&gt; &lt;path fill="#000" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z"&gt; <br/>
+         &lt;animatetransform attributetype="xml" attributename="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatcount="indefinite"&gt;&lt;/animatetransform&gt; <br/>
+        &lt;/path&gt; <br/>
+       &lt;/svg&gt; <br/>
+      &lt;/div&gt; <br/>
+     &lt;/div&gt; <br/>
+     &lt;div class="modal hide" id="togglConfirm" style="display: none;"&gt; <br/>
+      &lt;div class="modal-header"&gt; &lt;a class="close" data-dismiss="modal"&gt;×&lt;/a&gt; <br/>
+       &lt;h3&gt;Confirm Toggl Sync&lt;/h3&gt; <br/>
+      &lt;/div&gt; <br/>
+      &lt;div class="modal-body"&gt; <br/>
+       &lt;p&gt;Any existing timesheet entry will be overwritten if record for same date is matched. Click ok to continue.&lt;/p&gt; <br/>
+      &lt;/div&gt; <br/>
+      &lt;div class="modal-footer"&gt; <br/>
+       &lt;input id="" onclick="ajaxSyc()" class="" data-dismiss="modal" value="Ok" type="button"&gt; <br/>
+       &lt;input id="addCancel" class="reset" data-dismiss="modal" value="Cancel" type="button"&gt; <br/>
+      &lt;/div&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; &lt;!--                &lt;a href="#" id="help" class="panelTrigger"&gt;Help & Training&lt;/a&gt;<br/>
+                &lt;div id="help-menu" class="panelContainer"&gt;<br/>
+                    &lt;ul&gt;<br/>
+<br/>
+                        &lt;li&gt;&lt;a href="http://www.orangehrm.com/support-plans.php?utm_source=application_support&amp;utm_medium=app_url&amp;utm_campaign=orangeapp" target="_blank"&gt;Support&lt;/a&gt;&lt;/li&gt;<br/>
+                        &lt;li&gt;&lt;a href="http://www.orangehrm.com/training.php?utm_source=application_traning&amp;utm_medium=app_url&amp;utm_campaign=orangeapp" target="_blank"&gt;Training&lt;/a&gt;&lt;/li&gt;<br/>
+                        &lt;li&gt;&lt;a href="http://www.orangehrm.com/addon-plans.shtml?utm_source=application_addons&amp;utm_medium=app_url&amp;utm_campaign=orangeapp" target="_blank"&gt;Add-Ons&lt;/a&gt;&lt;/li&gt;<br/>
+                        &lt;li&gt;&lt;a href="http://www.orangehrm.com/customizations.php?utm_source=application_cus&amp;utm_medium=app_url&amp;utm_campaign=orangeapp" target="_blank"&gt;Customizations&lt;/a&gt;&lt;/li&gt;<br/>
+                        &lt;li&gt;&lt;a href="http://forum.orangehrm.com/" target="_blank"&gt;Forum&lt;/a&gt;&lt;/li&gt;<br/>
+                        &lt;li&gt;&lt;a href="http://blog.orangehrm.com/" target="_blank"&gt;Blog&lt;/a&gt;&lt;/li&gt;<br/>
+                        &lt;li&gt;&lt;a href="http://sourceforge.net/apps/mantisbt/orangehrm/view_all_bug_page.php" target="_blank"&gt;Bug Tracker&lt;/a&gt;&lt;/li&gt;<br/>
+                    &lt;/ul&gt;<br/>
+                &lt;/div&gt;--&gt; <br/>
+   &lt;/div&gt; &lt;!-- branding --&gt; <br/>
+   &lt;div id="mainMenu" class="menu"&gt; <br/>
+    &lt;ul id="mainMenuFirstLevelUnorderedList" class="main-menu-first-level-unordered-list main-menu-first-level-unordered-list-width"&gt; <br/>
+     &lt;li class="main-menu-first-level-list-item"&gt;&lt;a href="/index.php/admin/viewAdminModule" id="menu_admin_viewAdminModule" class="firstLevelMenu"&gt;&lt;b&gt;Admin&lt;/b&gt;&lt;/a&gt; <br/>
+      &lt;ul&gt; <br/>
+       &lt;li&gt;&lt;a href="#" id="menu_admin_UserManagement" class="arrow"&gt;User Management&lt;/a&gt; <br/>
+        &lt;ul&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/viewSystemUsers" id="menu_admin_viewSystemUsers"&gt;Users&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;!-- third level --&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="#" id="menu_admin_Job" class="arrow"&gt;Job&lt;/a&gt; <br/>
+        &lt;ul&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/viewJobTitleList" id="menu_admin_viewJobTitleList"&gt;Job Titles&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/viewPayGrades" id="menu_admin_viewPayGrades"&gt;Pay Grades&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/employmentStatus" id="menu_admin_employmentStatus"&gt;Employment Status&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/jobCategory" id="menu_admin_jobCategory"&gt;Job Categories&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/workShift" id="menu_admin_workShift"&gt;Work Shifts&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;!-- third level --&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="#" id="menu_admin_Organization" class="arrow"&gt;Organization&lt;/a&gt; <br/>
+        &lt;ul&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/viewOrganizationGeneralInformation" id="menu_admin_viewOrganizationGeneralInformation"&gt;General Information&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/viewLocations" id="menu_admin_viewLocations"&gt;Locations&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/viewCompanyStructure" id="menu_admin_viewCompanyStructure"&gt;Structure&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;!-- third level --&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="#" id="menu_admin_Qualifications" class="arrow"&gt;Qualifications&lt;/a&gt; <br/>
+        &lt;ul&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/viewSkills" id="menu_admin_viewSkills"&gt;Skills&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/viewEducation" id="menu_admin_viewEducation"&gt;Education&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/viewLicenses" id="menu_admin_viewLicenses"&gt;Licenses&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/viewLanguages" id="menu_admin_viewLanguages"&gt;Languages&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/membership" id="menu_admin_membership"&gt;Memberships&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;!-- third level --&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="/index.php/admin/nationality" id="menu_admin_nationality"&gt;Nationalities&lt;/a&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="/index.php/admin/addTheme" id="menu_admin_addTheme"&gt;Corporate Branding&lt;/a&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="#" id="menu_admin_Configuration" class="arrow"&gt;Configuration&lt;/a&gt; <br/>
+        &lt;ul&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/listMailConfiguration" id="menu_admin_listMailConfiguration"&gt;Email Configuration&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/viewEmailNotification" id="menu_admin_viewEmailNotification"&gt;Email Subscriptions&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/localization" id="menu_admin_localization"&gt;Localization&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/languagePackage" id="menu_admin_languagePackage"&gt;Language Packages&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/viewModules" id="menu_admin_viewModules"&gt;Modules&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/openIdProvider" id="menu_admin_openIdProvider"&gt;Social Media Authentication&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/registerOAuthClient" id="menu_admin_registerOAuthClient"&gt;Register OAuth Client&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;!-- third level --&gt; &lt;/li&gt; <br/>
+      &lt;/ul&gt; &lt;!-- second level --&gt; &lt;/li&gt; <br/>
+     &lt;li class="current main-menu-first-level-list-item"&gt;&lt;a href="/index.php/pim/viewPimModule" id="menu_pim_viewPimModule" class="firstLevelMenu"&gt;&lt;b&gt;PIM&lt;/b&gt;&lt;/a&gt; <br/>
+      &lt;ul&gt; <br/>
+       &lt;li&gt;&lt;a href="#" id="menu_pim_Configuration" class="arrow"&gt;Configuration&lt;/a&gt; <br/>
+        &lt;ul&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/pim/configurePim" id="menu_pim_configurePim"&gt;Optional Fields&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/pim/listCustomFields" id="menu_pim_listCustomFields"&gt;Custom Fields&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/pimCsvImport" id="menu_admin_pimCsvImport"&gt;Data Import&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/pim/viewReportingMethods" id="menu_pim_viewReportingMethods"&gt;Reporting Methods&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/pim/viewTerminationReasons" id="menu_pim_viewTerminationReasons"&gt;Termination Reasons&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;!-- third level --&gt; &lt;/li&gt; <br/>
+       &lt;li class="selected"&gt;&lt;a href="/index.php/pim/viewEmployeeList/reset/1" id="menu_pim_viewEmployeeList"&gt;Employee List&lt;/a&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="/index.php/pim/addEmployee" id="menu_pim_addEmployee"&gt;Add Employee&lt;/a&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="/index.php/core/viewDefinedPredefinedReports/reportGroup/3/reportType/PIM_DEFINED" id="menu_core_viewDefinedPredefinedReports"&gt;Reports&lt;/a&gt; &lt;/li&gt; <br/>
+      &lt;/ul&gt; &lt;!-- second level --&gt; &lt;/li&gt; <br/>
+     &lt;li class="main-menu-first-level-list-item"&gt;&lt;a href="/index.php/leave/viewLeaveModule" id="menu_leave_viewLeaveModule" class="firstLevelMenu"&gt;&lt;b&gt;Leave&lt;/b&gt;&lt;/a&gt; <br/>
+      &lt;ul&gt; <br/>
+       &lt;li&gt;&lt;a href="/index.php/leave/applyLeave" id="menu_leave_applyLeave"&gt;Apply&lt;/a&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="/index.php/leave/viewMyLeaveList/reset/1" id="menu_leave_viewMyLeaveList"&gt;My Leave&lt;/a&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="#" id="menu_leave_Entitlements" class="arrow"&gt;Entitlements&lt;/a&gt; <br/>
+        &lt;ul&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/leave/addLeaveEntitlement" id="menu_leave_addLeaveEntitlement"&gt;Add Entitlements&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/leave/viewLeaveEntitlements/reset/1" id="menu_leave_viewLeaveEntitlements"&gt;Employee Entitlements&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/leave/viewMyLeaveEntitlements/reset/1" id="menu_leave_viewMyLeaveEntitlements"&gt;My Entitlements&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;!-- third level --&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="#" id="menu_leave_Reports" class="arrow"&gt;Reports&lt;/a&gt; <br/>
+        &lt;ul&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/leave/viewLeaveBalanceReport" id="menu_leave_viewLeaveBalanceReport"&gt;Leave Entitlements and Usage Report&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/leave/viewMyLeaveBalanceReport" id="menu_leave_viewMyLeaveBalanceReport"&gt;My Leave Entitlements and Usage Report&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;!-- third level --&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="#" id="menu_leave_Configure" class="arrow"&gt;Configure&lt;/a&gt; <br/>
+        &lt;ul&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/leave/defineLeavePeriod" id="menu_leave_defineLeavePeriod"&gt;Leave Period&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/leave/leaveTypeList" id="menu_leave_leaveTypeList"&gt;Leave Types&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/leave/defineWorkWeek" id="menu_leave_defineWorkWeek"&gt;Work Week&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/leave/viewHolidayList" id="menu_leave_viewHolidayList"&gt;Holidays&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;!-- third level --&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="/index.php/leave/viewLeaveList/reset/1" id="menu_leave_viewLeaveList"&gt;Leave List&lt;/a&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="/index.php/leave/assignLeave" id="menu_leave_assignLeave"&gt;Assign Leave&lt;/a&gt; &lt;/li&gt; <br/>
+      &lt;/ul&gt; &lt;!-- second level --&gt; &lt;/li&gt; <br/>
+     &lt;li class="main-menu-first-level-list-item"&gt;&lt;a href="/index.php/time/viewTimeModule" id="menu_time_viewTimeModule" class="firstLevelMenu"&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/a&gt; <br/>
+      &lt;ul&gt; <br/>
+       &lt;li&gt;&lt;a href="#" id="menu_time_Timesheets" class="arrow"&gt;Timesheets&lt;/a&gt; <br/>
+        &lt;ul&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/time/viewMyTimesheet" id="menu_time_viewMyTimesheet"&gt;My Timesheets&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/time/viewEmployeeTimesheet" id="menu_time_viewEmployeeTimesheet"&gt;Employee Timesheets&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;!-- third level --&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="#" id="menu_attendance_Attendance" class="arrow"&gt;Attendance&lt;/a&gt; <br/>
+        &lt;ul&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/attendance/viewMyAttendanceRecord" id="menu_attendance_viewMyAttendanceRecord"&gt;My Records&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/attendance/punchIn" id="menu_attendance_punchIn"&gt;Punch In/Out&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/attendance/viewAttendanceRecord" id="menu_attendance_viewAttendanceRecord"&gt;Employee Records&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/attendance/configure" id="menu_attendance_configure"&gt;Configuration&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;!-- third level --&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="#" id="menu_time_Reports" class="arrow"&gt;Reports&lt;/a&gt; <br/>
+        &lt;ul&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/time/displayProjectReportCriteria?reportId=1" id="menu_time_displayProjectReportCriteria"&gt;Project Reports&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/time/displayEmployeeReportCriteria?reportId=2" id="menu_time_displayEmployeeReportCriteria"&gt;Employee Reports&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/time/displayAttendanceSummaryReportCriteria?reportId=4" id="menu_time_displayAttendanceSummaryReportCriteria"&gt;Attendance Summary&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;!-- third level --&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="#" id="menu_admin_ProjectInfo" class="arrow"&gt;Project Info&lt;/a&gt; <br/>
+        &lt;ul&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/viewCustomers" id="menu_admin_viewCustomers"&gt;Customers&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/admin/viewProjects" id="menu_admin_viewProjects"&gt;Projects&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;!-- third level --&gt; &lt;/li&gt; <br/>
+      &lt;/ul&gt; &lt;!-- second level --&gt; &lt;/li&gt; <br/>
+     &lt;li class="main-menu-first-level-list-item"&gt;&lt;a href="/index.php/recruitment/viewRecruitmentModule" id="menu_recruitment_viewRecruitmentModule" class="firstLevelMenu"&gt;&lt;b&gt;Recruitment&lt;/b&gt;&lt;/a&gt; <br/>
+      &lt;ul&gt; <br/>
+       &lt;li&gt;&lt;a href="/index.php/recruitment/viewCandidates" id="menu_recruitment_viewCandidates"&gt;Candidates&lt;/a&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="/index.php/recruitment/viewJobVacancy" id="menu_recruitment_viewJobVacancy"&gt;Vacancies&lt;/a&gt; &lt;/li&gt; <br/>
+      &lt;/ul&gt; &lt;!-- second level --&gt; &lt;/li&gt; <br/>
+     &lt;li class="main-menu-first-level-list-item"&gt;&lt;a href="/index.php/pim/viewMyDetails" id="menu_pim_viewMyDetails" class="firstLevelMenu"&gt;&lt;b&gt;My Info&lt;/b&gt;&lt;/a&gt; <br/>
+      &lt;ul&gt; <br/>
+       &lt;li&gt;&lt;/li&gt; <br/>
+      &lt;/ul&gt; &lt;!-- second level --&gt; &lt;/li&gt; <br/>
+     &lt;li class="main-menu-first-level-list-item"&gt;&lt;a href="#" id="menu__Performance" class="firstLevelMenu"&gt;&lt;b&gt;Performance&lt;/b&gt;&lt;/a&gt; <br/>
+      &lt;ul&gt; <br/>
+       &lt;li&gt;&lt;a href="#" id="menu_performance_Configure" class="arrow"&gt;Configure&lt;/a&gt; <br/>
+        &lt;ul&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/performance/searchKpi" id="menu_performance_searchKpi"&gt;KPIs&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/performance/addPerformanceTracker" id="menu_performance_addPerformanceTracker"&gt;Trackers&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;!-- third level --&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="#" id="menu_performance_ManageReviews" class="arrow"&gt;Manage Reviews&lt;/a&gt; <br/>
+        &lt;ul&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/performance/searchPerformancReview" id="menu_performance_searchPerformancReview"&gt;Manage Reviews&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/performance/myPerformanceReview" id="menu_performance_myPerformanceReview"&gt;My Reviews&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/performance/searchEvaluatePerformancReview" id="menu_performance_searchEvaluatePerformancReview"&gt;Review List&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;!-- third level --&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="/index.php/performance/viewMyPerformanceTrackerList" id="menu_performance_viewMyPerformanceTrackerList"&gt;My Trackers&lt;/a&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="/index.php/performance/viewEmployeePerformanceTrackerList" id="menu_performance_viewEmployeePerformanceTrackerList"&gt;Employee Trackers&lt;/a&gt; &lt;/li&gt; <br/>
+      &lt;/ul&gt; &lt;!-- second level --&gt; &lt;/li&gt; <br/>
+     &lt;li class="main-menu-first-level-list-item"&gt;&lt;a href="/index.php/dashboard" id="menu_dashboard_index" class="firstLevelMenu"&gt;&lt;b&gt;Dashboard&lt;/b&gt;&lt;/a&gt; <br/>
+      &lt;ul&gt; <br/>
+       &lt;li&gt;&lt;/li&gt; <br/>
+      &lt;/ul&gt; &lt;!-- second level --&gt; &lt;/li&gt; <br/>
+     &lt;li class="main-menu-first-level-list-item"&gt;&lt;a href="/index.php/directory/viewDirectory/reset/1" id="menu_directory_viewDirectory" class="firstLevelMenu"&gt;&lt;b&gt;Directory&lt;/b&gt;&lt;/a&gt; <br/>
+      &lt;ul&gt; <br/>
+       &lt;li&gt;&lt;/li&gt; <br/>
+      &lt;/ul&gt; &lt;!-- second level --&gt; &lt;/li&gt; <br/>
+     &lt;li class="main-menu-first-level-list-item"&gt;&lt;a href="/index.php/maintenance/purgeEmployee" id="menu_maintenance_purgeEmployee" class="firstLevelMenu"&gt;&lt;b&gt;Maintenance&lt;/b&gt;&lt;/a&gt; <br/>
+      &lt;ul&gt; <br/>
+       &lt;li&gt;&lt;a href="#" id="menu_maintenance_PurgeRecords" class="arrow"&gt;Purge Records&lt;/a&gt; <br/>
+        &lt;ul&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/maintenance/purgeEmployee" id="menu_maintenance_purgeEmployee"&gt;Employee Records&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="/index.php/maintenance/purgeCandidateData" id="menu_maintenance_purgeCandidateData"&gt;Candidate Records&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;!-- third level --&gt; &lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a href="/index.php/maintenance/accessEmployeeData" id="menu_maintenance_accessEmployeeData"&gt;Access Records&lt;/a&gt; &lt;/li&gt; <br/>
+      &lt;/ul&gt; &lt;!-- second level --&gt; &lt;/li&gt; <br/>
+     &lt;li class="main-menu-first-level-list-item"&gt;&lt;a href="/index.php/buzz/viewBuzz" id="menu_buzz_viewBuzz" class="firstLevelMenu"&gt;&lt;b&gt;Buzz&lt;/b&gt;&lt;/a&gt; <br/>
+      &lt;ul&gt; <br/>
+       &lt;li&gt;&lt;/li&gt; <br/>
+      &lt;/ul&gt; &lt;!-- second level --&gt; &lt;/li&gt; <br/>
+    &lt;/ul&gt; &lt;!-- first level --&gt; <br/>
+   &lt;/div&gt; &lt;!-- menu --&gt; <br/>
+   &lt;div id="content"&gt; <br/>
+    &lt;div class="box searchForm toggableForm" id="employee-information"&gt; <br/>
+     &lt;div class="head"&gt; <br/>
+      &lt;h1&gt;Employee Information&lt;/h1&gt; <br/>
+     &lt;/div&gt; <br/>
+     &lt;div class="inner"&gt; <br/>
+      &lt;form id="search_form" name="frmEmployeeSearch" method="post" action="/index.php/pim/viewEmployeeList"&gt; <br/>
+       &lt;fieldset&gt; <br/>
+        &lt;ol&gt; <br/>
+         &lt;li&gt;&lt;label for="empsearch_employee_name"&gt;Employee Name&lt;/label&gt; &lt;input type="text" name="empsearch[employee_name][empName]" value="Ratna" id="empsearch_employee_name_empName" class="ac_input" autocomplete="off"&gt; &lt;input type="hidden" name="empsearch[employee_name][empId]" id="empsearch_employee_name_empId" value=""&gt; &lt;script type="text/javascript"&gt;<br/>
+<br/>
+            var employees_empsearch_employee_name = [];<br/>
+<br/>
+            $(document).ready(function() {<br/>
+            <br/>
+                var nameField = $("#empsearch_employee_name_empName");<br/>
+                var idStoreField = $("#empsearch_employee_name_empId");<br/>
+                var typeHint = 'Type for hints...';<br/>
+                var hintClass = 'inputFormatHint';<br/>
+                var loadingMethod = 'ajax';<br/>
+                var loadingHint = 'Loading';<br/>
+            <br/>
+                if (idStoreField.val() != '') {<br/>
+                    idStoreField.data('item.name', nameField.val());<br/>
+                }<br/>
+                <br/>
+                nameField.data('typeHint', typeHint);<br/>
+                nameField.data('loadingHint', loadingHint);<br/>
+                <br/>
+                nameField.one('focus', function() {<br/>
+<br/>
+                        if ($(this).hasClass(hintClass)) {<br/>
+                            $(this).val("");<br/>
+                            $(this).removeClass(hintClass);<br/>
+                        }<br/>
+<br/>
+                    });<br/>
+                    <br/>
+                if( loadingMethod != 'ajax'){<br/>
+                    if (nameField.val() == '' || nameField.val() == typeHint) {<br/>
+                        nameField.val(typeHint).addClass(hintClass);<br/>
+                    }<br/>
+<br/>
+                    <br/>
+<br/>
+                    nameField.autocomplete(employees_empsearch_employee_name, {<br/>
+<br/>
+                        formatItem: function(item) {<br/>
+                            return $('&lt;div/&gt;').text(item.name).html();<br/>
+                        },<br/>
+                        formatResult: function(item) {<br/>
+                            return item.name<br/>
+                        }<br/>
+                      ,matchContains:true<br/>
+                        }).result(function(event, item) {<br/>
+                            idStoreField.val(item.id);<br/>
+                            idStoreField.data('item.name', item.name);<br/>
+                        }<br/>
+<br/>
+                    );<br/>
+                 }else{<br/>
+                        var value = nameField.val().trim();<br/>
+                        nameField.val(loadingHint).addClass('ac_loading');<br/>
+                        $.ajax({<br/>
+                               url: "/index.php/pim/getEmployeeListAjax",<br/>
+                               data: '',<br/>
+                               dataType: 'json',<br/>
+                               success: function(employeeList){<br/>
+<br/>
+                                     nameField.autocomplete(employeeList, {<br/>
+<br/>
+                                                formatItem: function(item) {<br/>
+                                                    return $('&lt;div/&gt;').text(item.name).html();<br/>
+                                                },<br/>
+                                                formatResult: function(item) {<br/>
+                                                    return item.name<br/>
+                                                }<br/>
+                                                <br/>
+                                                ,matchContains:true<br/>
+                                            }).result(function(event, item) {<br/>
+                                                idStoreField.val(item.id);<br/>
+                                                idStoreField.data('item.name', item.name);<br/>
+                                            }<br/>
+<br/>
+                                        );<br/>
+                                         nameField.removeClass('ac_loading'); <br/>
+                                        <br/>
+                                         if(value==''){<br/>
+                                            nameField.val(typeHint).addClass(hintClass);<br/>
+                                         } else {<br/>
+                                            nameField.val(value).addClass();<br/>
+                                         }<br/>
+                                    }<br/>
+                             });<br/>
+                 }<br/>
+                <br/>
+            }); // End of $(document).ready<br/>
+<br/>
+                 <br/>
+        &lt;/script&gt; &lt;/li&gt; <br/>
+         &lt;li&gt;&lt;label for="empsearch_id"&gt;Id&lt;/label&gt; &lt;input type="text" name="empsearch[id]" value="" id="empsearch_id" class="inputFormatHint"&gt; &lt;/li&gt; <br/>
+         &lt;li&gt;&lt;label for="empsearch_employee_status"&gt;Employment Status&lt;/label&gt; &lt;select name="empsearch[employee_status]" id="empsearch_employee_status"&gt; &lt;option value="0" selected&gt;All&lt;/option&gt; &lt;option value="1"&gt;Freelance&lt;/option&gt; &lt;option value="2"&gt;Full-Time Contract&lt;/option&gt; &lt;option value="3"&gt;Full-Time Permanent&lt;/option&gt; &lt;option value="4"&gt;Full-Time Probation&lt;/option&gt; &lt;option value="5"&gt;Part-Time Contract&lt;/option&gt; &lt;option value="6"&gt;Part-Time Internship&lt;/option&gt; &lt;/select&gt; &lt;/li&gt; <br/>
+         &lt;li&gt;&lt;label for="empsearch_termination"&gt;Include&lt;/label&gt; &lt;select name="empsearch[termination]" id="empsearch_termination"&gt; &lt;option value="1" selected&gt;Current Employees Only&lt;/option&gt; &lt;option value="2"&gt;Current and Past Employees&lt;/option&gt; &lt;option value="3"&gt;Past Employees Only&lt;/option&gt; &lt;/select&gt; &lt;/li&gt; <br/>
+         &lt;li&gt;&lt;label for="empsearch_supervisor_name"&gt;Supervisor Name&lt;/label&gt; &lt;input type="text" name="empsearch[supervisor_name]" value="" id="empsearch_supervisor_name" class="inputFormatHint ac_input" autocomplete="off"&gt; &lt;/li&gt; <br/>
+         &lt;li&gt;&lt;label for="empsearch_job_title"&gt;Job Title&lt;/label&gt; &lt;select name="empsearch[job_title]" id="empsearch_job_title"&gt; &lt;option value="0" selected&gt;All&lt;/option&gt; &lt;option value="29"&gt;Automation Tester&lt;/option&gt; &lt;option value="27"&gt;BTest&lt;/option&gt; &lt;option value="1"&gt;Chief Executive Officer&lt;/option&gt; &lt;option value="2"&gt;Chief Financial Officer&lt;/option&gt; &lt;option value="16"&gt;Content Specialist&lt;/option&gt; &lt;option value="17"&gt;Customer Success Manager&lt;/option&gt; &lt;option value="12"&gt;Database Administrator&lt;/option&gt; &lt;option value="28"&gt;EA&lt;/option&gt; &lt;option value="3"&gt;Engineer&lt;/option&gt; &lt;option value="20"&gt;Finance Manager&lt;/option&gt; &lt;option value="21"&gt;Financial Analyst&lt;/option&gt; &lt;option value="18"&gt;Head of Support&lt;/option&gt; &lt;option value="24"&gt;HR Associate&lt;/option&gt; &lt;option value="23"&gt;HR Manager&lt;/option&gt; &lt;option value="10"&gt;IT Manager&lt;/option&gt; &lt;option value="11"&gt;Network Administrator&lt;/option&gt; &lt;option value="25"&gt;Payroll Administrator&lt;/option&gt; &lt;option value="14"&gt;Pre-Sales Coordinator&lt;/option&gt; &lt;option value="9"&gt;QA Engineer&lt;/option&gt; &lt;option value="8"&gt;QA Lead&lt;/option&gt; &lt;option value="13"&gt;Sales Representative&lt;/option&gt; &lt;option value="15"&gt;Social Media Marketer&lt;/option&gt; &lt;option value="6"&gt;Software Architect&lt;/option&gt; &lt;option value="7"&gt;Software Engineer&lt;/option&gt; &lt;option value="19"&gt;Support Specialist&lt;/option&gt; &lt;option value="5"&gt;VP - Client Services&lt;/option&gt; &lt;option value="4"&gt;VP - Sales &amp; Marketing&lt;/option&gt; &lt;/select&gt; &lt;/li&gt; <br/>
+         &lt;li&gt;&lt;label for="empsearch_sub_unit"&gt;Sub Unit&lt;/label&gt; &lt;select name="empsearch[sub_unit]" id="empsearch_sub_unit"&gt; &lt;option value="0" selected&gt;All&lt;/option&gt; &lt;option value="2"&gt;Administration&lt;/option&gt; &lt;option value="3"&gt;Engineering&lt;/option&gt; &lt;option value="4"&gt;&nbsp;&nbsp;Development&lt;/option&gt; &lt;option value="5"&gt;&nbsp;&nbsp;Quality Assurance&lt;/option&gt; &lt;option value="6"&gt;&nbsp;&nbsp;TechOps&lt;/option&gt; &lt;option value="7"&gt;Sales &amp; Marketing&lt;/option&gt; &lt;option value="8"&gt;&nbsp;&nbsp;Sales&lt;/option&gt; &lt;option value="9"&gt;&nbsp;&nbsp;Marketing&lt;/option&gt; &lt;option value="10"&gt;Client Services&lt;/option&gt; &lt;option value="11"&gt;&nbsp;&nbsp;Technical Support&lt;/option&gt; &lt;option value="12"&gt;Finance&lt;/option&gt; &lt;option value="13"&gt;Human Resources&lt;/option&gt; &lt;/select&gt; &lt;input type="hidden" name="empsearch[isSubmitted]" value="yes" id="empsearch_isSubmitted"&gt; &lt;input type="hidden" name="empsearch[_csrf_token]" value="ad2d3788602ed27aa20171261bac93ed" id="empsearch__csrf_token"&gt;&lt;/li&gt; <br/>
+        &lt;/ol&gt; <br/>
+        &lt;input type="hidden" name="pageNo" id="pageNo" value=""&gt; <br/>
+        &lt;input type="hidden" name="hdnAction" id="hdnAction" value="search"&gt; <br/>
+        &lt;p&gt; &lt;input type="button" id="searchBtn" value="Search" name="_search"&gt; &lt;input type="button" class="reset" id="resetBtn" value="Reset" name="_reset"&gt; &lt;/p&gt; <br/>
+       &lt;/fieldset&gt; <br/>
+      &lt;/form&gt; <br/>
+     &lt;/div&gt; &lt;!-- inner --&gt; &lt;a href="#" class="toggle tiptip"&gt;&gt;&lt;/a&gt; <br/>
+    &lt;/div&gt; &lt;!-- employee-information --&gt; <br/>
+    &lt;div class="box noHeader" id="search-results"&gt; <br/>
+     &lt;div class="inner"&gt; <br/>
+      &lt;form method="post" action="/index.php/pim/deleteEmployees" name="frmList_ohrmListComponent" id="frmList_ohrmListComponent"&gt; <br/>
+       &lt;input type="hidden" name="defaultList[_csrf_token]" value="3cae8e8fea2b619e0d983e6eb4335afd" id="defaultList__csrf_token"&gt; <br/>
+       &lt;div class="top"&gt; <br/>
+        &lt;input type="button" class="" id="btnAdd" name="btnAdd" value="Add"&gt; <br/>
+        &lt;input type="submit" class="delete" id="btnDelete" name="btnDelete" value="Delete" data-toggle="modal" data-target="#deleteConfModal" disabled&gt; <br/>
+       &lt;/div&gt; &lt;!-- top --&gt; <br/>
+       &lt;div id="helpText" class="helpText"&gt;&lt;/div&gt; <br/>
+       &lt;div id="scrollWrapper"&gt; <br/>
+        &lt;div id="scrollContainer"&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+       &lt;div id="tableWrapper"&gt; <br/>
+        &lt;table class="table hover" id="resultTable"&gt; <br/>
+         &lt;thead&gt; <br/>
+          &lt;tr&gt;<br/>
+           &lt;th rowspan="1" class="checkbox-col"&gt;&lt;input type="checkbox" id="ohrmList_chkSelectAll" name="chkSelectAll" value=""&gt;&lt;/th&gt; <br/>
+           &lt;th rowspan="1" style="width:5%" class="header"&gt;&lt;a href="https://opensource-demo.orangehrmlive.com/index.php/pim/viewEmployeeList?sortField=employeeId&amp;sortOrder=ASC" class="null"&gt;Id&lt;/a&gt;&lt;/th&gt; <br/>
+           &lt;th rowspan="1" style="width:13%" class="header"&gt;&lt;a href="https://opensource-demo.orangehrmlive.com/index.php/pim/viewEmployeeList?sortField=firstMiddleName&amp;sortOrder=ASC" class="null"&gt;First (&amp; Middle) Name&lt;/a&gt;&lt;/th&gt; <br/>
+           &lt;th rowspan="1" style="width:10%" class="header"&gt;&lt;a href="https://opensource-demo.orangehrmlive.com/index.php/pim/viewEmployeeList?sortField=lastName&amp;sortOrder=ASC" class="null"&gt;Last Name&lt;/a&gt;&lt;/th&gt; <br/>
+           &lt;th rowspan="1" style="width:20%" class="header"&gt;&lt;a href="https://opensource-demo.orangehrmlive.com/index.php/pim/viewEmployeeList?sortField=jobTitle&amp;sortOrder=ASC" class="null"&gt;Job Title&lt;/a&gt;&lt;/th&gt; <br/>
+           &lt;th rowspan="1" style="width:15%" class="header"&gt;&lt;a href="https://opensource-demo.orangehrmlive.com/index.php/pim/viewEmployeeList?sortField=employeeStatus&amp;sortOrder=ASC" class="null"&gt;Employment Status&lt;/a&gt;&lt;/th&gt; <br/>
+           &lt;th rowspan="1" style="width:15%" class="header"&gt;&lt;a href="https://opensource-demo.orangehrmlive.com/index.php/pim/viewEmployeeList?sortField=subDivision&amp;sortOrder=ASC" class="null"&gt;Sub Unit&lt;/a&gt;&lt;/th&gt; <br/>
+           &lt;th rowspan="1" style="width:25%" class="header"&gt;&lt;a href="https://opensource-demo.orangehrmlive.com/index.php/pim/viewEmployeeList?sortField=supervisor&amp;sortOrder=ASC" class="null"&gt;Supervisor&lt;/a&gt;&lt;/th&gt; <br/>
+          &lt;/tr&gt; <br/>
+         &lt;/thead&gt; <br/>
+         &lt;tbody&gt; <br/>
+          &lt;tr class="odd"&gt; <br/>
+           &lt;td&gt;&lt;input type="checkbox" id="ohrmList_chkSelectRecord_61" name="chkSelectRow[]" value="61"&gt;&lt;/td&gt; <br/>
+           &lt;td class="left"&gt;&lt;a href="/index.php/pim/viewEmployee/empNumber/61"&gt;0281&lt;/a&gt;&lt;/td&gt; <br/>
+           &lt;td class="left"&gt;&lt;a href="/index.php/pim/viewEmployee/empNumber/61"&gt;Ratna&lt;/a&gt;&lt;/td&gt; <br/>
+           &lt;td class="left"&gt;&lt;a href="/index.php/pim/viewEmployee/empNumber/61"&gt;Khoerunnisa&lt;/a&gt;&lt;/td&gt; <br/>
+           &lt;td class="left"&gt;&lt;/td&gt; <br/>
+           &lt;td class="left"&gt;&lt;/td&gt; <br/>
+           &lt;td class="left"&gt;&lt;/td&gt; <br/>
+           &lt;td class="left"&gt;&lt;/td&gt; <br/>
+          &lt;/tr&gt; <br/>
+         &lt;/tbody&gt; <br/>
+        &lt;/table&gt; <br/>
+       &lt;/div&gt; &lt;!-- tableWrapper --&gt; <br/>
+      &lt;/form&gt; &lt;!-- frmList_ohrmListComponent --&gt; <br/>
+     &lt;/div&gt; &lt;!-- inner --&gt; <br/>
+    &lt;/div&gt; &lt;!-- search-results --&gt; <br/>
+    &lt;script type="text/javascript" src="/webres_6258e2190e0e25.11707650/orangehrmCorePlugin/js/_ohrmList.js"&gt;&lt;/script&gt; <br/>
+    &lt;script type="text/javascript"&gt;<br/>
+<br/>
+                        var rootPath = '/';<br/>
+<br/>
+                        $(document).ready(function() {<br/>
+                            ohrmList_init();<br/>
+<br/>
+                        });<br/>
+                                              <br/>
+<br/>
+&lt;/script&gt; &lt;!-- Confirmation box HTML: Begins --&gt; <br/>
+    &lt;div class="modal hide" id="deleteConfModal"&gt; <br/>
+     &lt;div class="modal-header"&gt; &lt;a class="close" data-dismiss="modal"&gt;×&lt;/a&gt; <br/>
+      &lt;h3&gt;OrangeHRM - Confirmation Required&lt;/h3&gt; <br/>
+     &lt;/div&gt; <br/>
+     &lt;div class="modal-body"&gt; <br/>
+      &lt;p&gt;Delete records?&lt;/p&gt; <br/>
+     &lt;/div&gt; <br/>
+     &lt;div class="modal-footer"&gt; <br/>
+      &lt;input type="button" class="btn" data-dismiss="modal" id="dialogDeleteBtn" value="Ok"&gt; <br/>
+      &lt;input type="button" class="btn cancel" data-dismiss="modal" value="Cancel"&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; &lt;!-- Confirmation box HTML: Ends --&gt; <br/>
+    &lt;script type="text/javascript"&gt;<br/>
+<br/>
+    $(document).ready(function() {<br/>
+        <br/>
+        var supervisors = [{"name":"Odis Adalwin","id":"2"},{"name":"Linda Jane Anderson","id":"5"},{"name":"Peter Mac Anderson","id":"3"},{"name":"Dominic Chase","id":"6"},{"name":"Paul Collings","id":"7"},{"name":"Fiona Grace","id":"8"},{"name":"Aaliyah Haq","id":"10"},{"name":"Cassidy Hope","id":"12"},{"name":"Kevin Mathews","id":"15"},{"name":"Anthony Nolan","id":"18"},{"name":"Melan Peiris","id":"20"},{"name":"DilshadS S","id":"43"},{"name":"John Smith","id":"4"}];<br/>
+<br/>
+        $('#btnDelete').attr('disabled', 'disabled');<br/>
+<br/>
+        $("#ohrmList_chkSelectAll").click(function() {<br/>
+            if ($(":checkbox").length == 1) {<br/>
+                $('#btnDelete').attr('disabled', 'disabled');<br/>
+            }<br/>
+            else {<br/>
+                if ($("#ohrmList_chkSelectAll").is(':checked')) {<br/>
+                    $('#btnDelete').removeAttr('disabled');<br/>
+                } else {<br/>
+                    $('#btnDelete').attr('disabled', 'disabled');<br/>
+                }<br/>
+            }<br/>
+        });<br/>
+<br/>
+        $(':checkbox[name*="chkSelectRow[]"]').click(function() {<br/>
+            if ($(':checkbox[name*="chkSelectRow[]"]').is(':checked')) {<br/>
+                $('#btnDelete').removeAttr('disabled');<br/>
+            } else {<br/>
+                $('#btnDelete').attr('disabled', 'disabled');<br/>
+            }<br/>
+        });<br/>
+<br/>
+        // Handle hints<br/>
+        if ($("#empsearch_id").val() == '') {<br/>
+            $("#empsearch_id").val('Type Employee Id...')<br/>
+                    .addClass("inputFormatHint");<br/>
+        }<br/>
+<br/>
+        if ($("#empsearch_supervisor_name").val() == '') {<br/>
+            $("#empsearch_supervisor_name").val('Type for hints...')<br/>
+                    .addClass("inputFormatHint");<br/>
+        }<br/>
+<br/>
+        $("#empsearch_id, #empsearch_supervisor_name").one('focus', function() {<br/>
+<br/>
+            if ($(this).hasClass("inputFormatHint")) {<br/>
+                $(this).val("");<br/>
+                $(this).removeClass("inputFormatHint");<br/>
+            }<br/>
+        });<br/>
+<br/>
+        $("#empsearch_supervisor_name").autocomplete(supervisors, {<br/>
+            formatItem: function(item) {<br/>
+                return $('&lt;div/&gt;').text(item.name).html();<br/>
+            },<br/>
+            formatResult: function(item) {<br/>
+                return item.name<br/>
+            }<br/>
+            , matchContains: true<br/>
+        }).result(function(event, item) {<br/>
+        }<br/>
+        );<br/>
+<br/>
+        $('#searchBtn').click(function() {<br/>
+            $("#empsearch_isSubmitted").val('yes');<br/>
+            $('#search_form input.inputFormatHint').val('');<br/>
+            $('#search_form input.ac_loading').val('');<br/>
+            $('#search_form').submit();<br/>
+        });<br/>
+<br/>
+        $('#resetBtn').click(function() {<br/>
+            $("#empsearch_isSubmitted").val('yes');<br/>
+            $("#empsearch_employee_name_empName").val('');<br/>
+            $("#empsearch_supervisor_name").val('');<br/>
+            $("#empsearch_id").val('');<br/>
+            $("#empsearch_job_title").val('0');<br/>
+            $("#empsearch_employee_status").val('0');<br/>
+            $("#empsearch_sub_unit").val('0');<br/>
+            $("#empsearch_termination").val('1');<br/>
+            $('#search_form').submit();<br/>
+        });<br/>
+<br/>
+        $('#btnAdd').click(function() {<br/>
+            location.href = "/index.php/pim/addEmployee";<br/>
+        });<br/>
+        $('#btnDelete').click(function() {<br/>
+            $('#frmList_ohrmListComponent').submit(function() {<br/>
+                $('#deleteConfirmation').dialog('open');<br/>
+                return false;<br/>
+            });<br/>
+        });<br/>
+<br/>
+        /* Delete confirmation controls: Begin */<br/>
+        $('#dialogDeleteBtn').click(function() {<br/>
+            document.frmList_ohrmListComponent.submit();<br/>
+        });<br/>
+        /* Delete confirmation controls: End */<br/>
+<br/>
+    }); //ready<br/>
+<br/>
+    function submitPage(pageNo) {<br/>
+        document.frmEmployeeSearch.pageNo.value = pageNo;<br/>
+        document.frmEmployeeSearch.hdnAction.value = 'paging';<br/>
+        $('#search_form input.inputFormatHint').val('');<br/>
+        $('#search_form input.ac_loading').val('');<br/>
+        $("#empsearch_isSubmitted").val('no');<br/>
+        document.getElementById('search_form').submit();<br/>
+    }<br/>
+&lt;/script&gt; <br/>
+   &lt;/div&gt; &lt;!-- content --&gt; <br/>
+  &lt;/div&gt; &lt;!-- wrapper --&gt; <br/>
+  &lt;div id="footer"&gt;<br/>
+    OrangeHRM 4.9<br/>
+   &lt;br&gt; © 2005 - 2022 &lt;a href="http://www.orangehrm.com" target="_blank"&gt;OrangeHRM, Inc&lt;/a&gt;. All rights reserved. <br/>
+  &lt;/div&gt; &lt;!-- footer --&gt; <br/>
+  &lt;script type="text/javascript"&gt;<br/>
+<br/>
+            $(document).ready(function() {                            <br/>
+                <br/>
+                /* Enabling tooltips */<br/>
+                $(".tiptip").tipTip();<br/>
+<br/>
+                /* Toggling header menus */<br/>
+                $("#welcome").click(function () {<br/>
+                    $("#welcome-menu").slideToggle("fast");<br/>
+                    $(this).toggleClass("activated-welcome");<br/>
+                    return false;<br/>
+                });<br/>
+                <br/>
+                $("#help").click(function () {<br/>
+                    $("#help-menu").slideToggle("fast");<br/>
+                    $(this).toggleClass("activated-help");<br/>
+                    return false;<br/>
+                });<br/>
+                <br/>
+                $('.panelTrigger').outside('click', function() {<br/>
+                    $('.panelContainer').stop(true, true).slideUp('fast');<br/>
+                });                <br/>
+<br/>
+                /* <br/>
+                 * Button hovering effects <br/>
+                 * Note: we are not using pure css using :hover because :hover applies to even disabled elements.<br/>
+                 * The pseudo class :enabled is not supported in IE &lt; 9.<br/>
+                 */                <br/>
+                $(document).on({<br/>
+                    mouseenter: function () {<br/>
+                        $(this).addClass('hover');                        <br/>
+                    },<br/>
+                    mouseleave: function () {<br/>
+                        $(this).removeClass('hover');                        <br/>
+                    }<br/>
+<br/>
+                }, 'input[type=button], input[type=submit], input[type=reset]'); <br/>
+  <br/>
+                /* Fading out main messages */<br/>
+                $(document).on({<br/>
+                    click: function() {<br/>
+                        $(this).parent('div.message').fadeOut("slow");<br/>
+                    }<br/>
+                }, '.message a.messageCloseButton');                <br/>
+<br/>
+                /* Toggling search form: Begins */<br/>
+                //$(".toggableForm .inner").hide(); // Disabling this makes search forms to be expanded by default.<br/>
+<br/>
+                $(".toggableForm .toggle").click(function () {<br/>
+                    $(".toggableForm .inner").slideToggle('slow', function() {<br/>
+                        if($(this).is(':hidden')) {<br/>
+                            $('.toggableForm .tiptip').tipTip({content:'Expand for Options'});<br/>
+                        } else {<br/>
+                            $('.toggableForm .tiptip').tipTip({content:'Hide Options'});<br/>
+                        }<br/>
+                    });<br/>
+                    $(this).toggleClass("activated");<br/>
+                });<br/>
+                /* Toggling search form: Ends */<br/>
+<br/>
+                /* Enabling/disabling form fields: Begin */<br/>
+                <br/>
+                $('form.clickToEditForm input, form.clickToEditForm select, form.clickToEditForm textarea').attr('disabled', 'disabled');<br/>
+                $('form.clickToEditForm input.calendar').datepicker('disable');<br/>
+                $('form.clickToEditForm input[type=button]').removeAttr('disabled');<br/>
+                <br/>
+                $('form input.editButton').click(function(){<br/>
+                    $('form.clickToEditForm input, form.clickToEditForm select, form.clickToEditForm textarea').removeAttr('disabled');<br/>
+                    $('form.clickToEditForm input.calendar').datepicker('enable');<br/>
+                });<br/>
+                <br/>
+                /* Enabling/disabling form fields: End */<br/>
+                <br/>
+            });<br/>
+            <br/>
+        &lt;/script&gt; <br/>
+  &lt;div id="tiptip_holder" style="max-width: 200px; margin: 229px 0px 0px 595px; display: block;" class="tip_bottom"&gt;<br/>
+   &lt;div id="tiptip_arrow" style="margin-left: 35px; margin-top: -12px;"&gt;<br/>
+    &lt;div id="tiptip_arrow_inner"&gt;&lt;/div&gt;<br/>
+   &lt;/div&gt;<br/>
+   &lt;div id="tiptip_content"&gt;<br/>
+    Hide Options<br/>
+   &lt;/div&gt;<br/>
+  &lt;/div&gt;<br/>
+ &lt;/body&gt;<br/>
+&lt;/html&gt;</code></pre></div></body></html>

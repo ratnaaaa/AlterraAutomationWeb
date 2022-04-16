@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: orange_hrm.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.03 s - in orange_hrm.CucumberTestSuite
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in orange_hrm.CucumberTestSuite
